@@ -24,7 +24,7 @@ jobs:
 
         - name: Build and push images
           run: |
-            docker compose up --build
+            docker compose up -d
             docker tag frontendpp "${{secrets.DOCKER_USERNAME}}"/frontendapp
             docker tag backendapp "${{secrets.DOCKER_USERNAME}}"/backendapp
             docker push "${{secrets.DOCKER_USERNAME}}"/frontendapp
