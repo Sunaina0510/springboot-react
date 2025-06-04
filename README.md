@@ -2,7 +2,7 @@
 
 ## Overview
 
-Spring Boot application with a React front end that allows the user to list, add, edit and delete items.
+Spring Boot application with a React front end that allows the user to list, add, edit and delete items
 
 The Spring Boot application uses Postgres as the datatabase for persisting the items.  The React application provides a UI to perform the create, read, update and delete (CRUD) operations.
 
